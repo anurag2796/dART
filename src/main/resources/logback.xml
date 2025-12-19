@@ -1,0 +1,21 @@
+<configuration>
+  <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+    <encoder>
+      <pattern>%d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n</pattern>
+    </encoder>
+  </appender>
+
+  <!-- Akka logging -->
+  <logger name="akka" level="INFO"/>
+  <logger name="akka.actor" level="INFO"/>
+  
+  <!-- dART logging -->
+  <logger name="edu.rit.dart" level="DEBUG"/>
+  
+  <!-- Silence test kit -->
+  <logger name="akka.testkit" level="WARN"/>
+
+  <root level="INFO">
+    <appender-ref ref="STDOUT"/>
+  </root>
+</configuration>

@@ -1,0 +1,30 @@
+# SBT and Scala
+target/
+project/target/
+project/project/
+
+# IDE
+.idea/
+.bsp/
+.metals/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.python-version
+
+# Temporary files
+*.tmp
+.cache/
