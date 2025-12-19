@@ -130,7 +130,7 @@ dx/dt = -Ax + (B - x)[I+ + ΣS+] - (D + x)[I- + ΣS-]
 
 ## Author
 
-Anurag Lakhera  
+Anurag Lnu  
 RIT CSCI 633  
 Independent Study - Biologically Inspired Intelligent Systems
 
